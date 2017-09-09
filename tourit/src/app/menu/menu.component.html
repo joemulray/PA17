@@ -1,3 +1,37 @@
-<p>
-  menu works!
-</p>
+<div class="container">
+ 
+    <!-- a-style dropdown -->
+    <div class="dropdown" dropdown>
+        <a dropdown-open>My Heroes</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Badman</a></li>
+            <li><a href="#">Sadman</a></li>
+            <li><a href="#">Lieman</a></li>
+        </ul>
+    </div>
+    <br/>
+ 
+    <!-- button dropdown -->
+    <div class="dropdown" dropdown>
+        <button class="btn btn-primary" dropdown-open>My Heroes</button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Badman</a></li>
+            <li><a href="#">Sadman</a></li>
+            <li><a href="#">Lieman</a></li>
+        </ul>
+    </div>
+    <br/>
+ 
+    <!-- dropdown with items that are not closing dropdown when you click on them -->
+    <div class="dropdown" dropdown>
+        <button class="btn btn-primary" dropdown-open>Not closable on items click</button>
+        <ul class="dropdown-menu" dropdown-not-closable-zone>
+            <li><a href="#">This dropdown will</a></li>
+            <li><a href="#">not be closed when you</a></li>
+            <li><a href="#">select any its items</a></li>
+            <li><a href="#">this allows you to put</a></li>
+            <li><a href="#">dynamic content into it</a></li>
+        </ul>
+    </div>
+ 
+</div>

@@ -64,19 +64,21 @@
 <div ng-app="appMaps" id="map_canvas" ng-controller="mainCtrl" style="text-align:center">
   <ui-gmap-google-map center=map.center zoom="map.zoom"></ui-gmap-google-map>
 </div>
+
     <head>
         <title> Vacation Rentals, Homes, Apartments & Rooms for Rent - Airbnb</title>
     <!--     <link rel="icon" type="image/jpg" href="img/maxrexdefault.jpg"> -->
     </head>
 <body>
     <div id="header">
-        <div id="nav">
+        <nav id="nav">
             <!-- <img src="https://s5.postimg.org/qqgj4taev/logo.png" id="logo" /> -->
                <p id="logo_text">TOURIT</p>
-            <a href="#" class="nav_links">Log In</a>
+            <a [routerLink] = "['/menu']" class="nav_links">Log In</a>
             <a href="#" class="nav_links">Sign Up</a>
             <a href="#" class="nav_links">Help</a>
-        </div>
+        </nav>
+        <router-outlet></router-outlet>
         <div id="welcome_text_div">
             <p id="welcome_text">Welcome</p>
             <p id="welcome_under_text">Rent unique places to stay from local hosts in 190+ countries.</p>
