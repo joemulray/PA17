@@ -1,20 +1,67 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="ui-event.js"></script>
+<script src="ui-map.js"></script>
+<script type='text/javascript' src='script.js'></script><!--script-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+<script src="http://rawgit.com/angular-ui/angular-google-maps/2.0.X/dist/angular-google-maps.js"></script>
+<style type="text/css">
+  html, body, #map_canvas {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  #map_canvas {
+    position: relative;
+  }
+
+  .angular-google-map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+</style>
+<!--<head>-->
+  <!--<title> Vacation Rentals, Homes, Apartments & Rooms for Rent - Airbnb</title>-->
+  <!--&lt;!&ndash;     <link rel="icon" type="image/jpg" href="img/maxrexdefault.jpg"> &ndash;&gt;-->
+<!--</head>-->
+<!--<body>-->
+<!--<div id="header">-->
+  <!--<div id="nav">-->
+    <!--&lt;!&ndash; <img src="https://s5.postimg.org/qqgj4taev/logo.png" id="logo" /> &ndash;&gt;-->
+    <!--<p id="logo_text">TOURIT</p>-->
+    <!--<a href="#" class="nav_links">Log In</a>-->
+    <!--<a href="#" class="nav_links">Sign Up</a>-->
+    <!--<a href="#" class="nav_links">Help</a>-->
+  <!--</div>-->
+  <!--<div id="welcome_text_div">-->
+    <!--<p id="welcome_text">Welcome</p>-->
+    <!--<p id="welcome_under_text">Rent unique places to stay from local hosts in 190+ countries.</p>-->
+    <!--<a href="#" id="how_it_works">-->
+      <!--How It Works-->
+    <!--</a>-->
+  <!--</div>-->
+  <!--<div id="searchbar_div">-->
+    <!--<div id="searchbar">-->
+      <!--<div id="where_div">-->
+        <!--<input type="search" placeholder="Where to next?" id="where_text">-->
+
+
+      <!--</div>-->
+      <!--<div id="search_button_div">-->
+        <!--<a href="#" id="search_button">-->
+          <!--Search-->
+        <!--</a>-->
+      <!--</div>-->
+
+    <!--</div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--</body>-->
+<div ng-app="appMaps" id="map_canvas" ng-controller="mainCtrl" style="text-align:center">
+  <ui-gmap-google-map center=map.center zoom="map.zoom"></ui-gmap-google-map>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
