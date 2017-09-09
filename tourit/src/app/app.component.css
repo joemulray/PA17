@@ -557,7 +557,7 @@ body{
     margin-left: 15px;
 }
 
-#check_out_div {
+#check_out_div {771
     position: absolute;
     width: 110px;
     height: 45px;
@@ -770,7 +770,6 @@ body{
 
 #all_destinations_text:hover {
     border: 1px solid gray;
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
 }
 
 
@@ -1367,18 +1366,14 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
 }
 
 * {
   -moz-box-sizing: border-box;
-<<<<<<< HEAD
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-=======
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
 }
 body {
   padding: 0;
@@ -1408,12 +1403,7 @@ body {
   background-image: url(https://a0.muscache.com/airbnb/static/footer/background-317dd7c2cb678ddbdb0a983d511cb9a0.png);
   background-color: #2b2d2e;
   color: #fff;
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
-}
+  }
 
 .container {
   width: 960px;
@@ -1477,16 +1467,12 @@ h5 {
   border: 1px solid #474949;
   margin: 0 5px;
   color: #fff;
-<<<<<<< HEAD
   transition: all .2s ease;
-=======
-  transition: all .2s ease; 
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
 
+  transition: all .2s ease; 
 }
 
 .searchbar {
-<<<<<<< HEAD
   display: inline-block;
   vertical-align: middle
 }
@@ -1502,8 +1488,7 @@ h5 {
 }
 
 .searchbar__input-wrapper {
-  float: left
-=======
+  float: left;
     display: inline-block;
     vertical-align: middle
 }
@@ -1520,12 +1505,10 @@ h5 {
 
 .searchbar__input-wrapper {
     float: left
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
 }
 
 .searchbar__location, .searchbar__checkin, .searchbar__checkout,
 .searchbar__dates--new, .searchbar__guests, .searchbar__submit {
-<<<<<<< HEAD
   float: left;
   margin: 0 -1px 0 0;
   padding-bottom: 0;
@@ -1594,7 +1577,6 @@ h5 {
 }
 
 input[type=search], div.button {
-=======
     float: left;
     margin: 0 -1px 0 0;
     padding-bottom: 0;
@@ -1663,17 +1645,11 @@ input[type=search], div.button {
 }
 
 input[type=search], div.button {  
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
   width: 165%;
   height: 45px;
 
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
   font-family: sans-serif;
   font-size: sans-serif;
 }
@@ -1681,16 +1657,9 @@ input[type=search], div.button {
 input[type=search] {
   margin: 0;
   padding: 0 10px;
-<<<<<<< HEAD
-
+  background-color: #f8f8f8;  
   background-color: #f8f8f8;
-
-=======
-  
-  background-color: #f8f8f8;
-  
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
-  border: 0;
+    border: 0;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   /*font-weight: bold;*/
@@ -1710,36 +1679,25 @@ div.button {
   color: #fff;
   background-color: #FF1717;
   font-weight: bold;
-<<<<<<< HEAD
 
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-
-=======
   
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
   white-space: nowrap;
 }
 
 div#container {
   display: table;
-<<<<<<< HEAD
-
-  /* I want the whole search box
-     to be exactly this wide. */
-  width: 400px;
-
-=======
-  
   /* I want the whole search box
      to be exactly this wide. */
   width: 400px;
   
->>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
-  margin: 50px auto 0;
+  /* I want the whole search box
+     to be exactly this wide. */
+  width: 400px;
+    margin: 50px auto 0;
 }
 div#container div.cell {
   display: table-cell;
