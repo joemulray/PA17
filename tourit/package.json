@@ -21,7 +21,11 @@
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
+<<<<<<< HEAD
     "angular-google-map": "0.0.2",
+=======
+    "animejs": "^2.0.2",
+>>>>>>> 124d55c673485738f599fa3feb9f7e754089ae02
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
