@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {DropdownModule} from "ng2-dropdown";
+import { Ng2DropdownModule } from 'ng2-material-dropdown';
 
 @Component({
   selector: 'app-menu',
@@ -11,6 +11,7 @@ export class MenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  console.log("Hello")
   }
 
 }

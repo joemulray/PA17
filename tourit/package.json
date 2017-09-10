@@ -25,6 +25,7 @@
     "animejs": "^2.0.2",
     "core-js": "^2.4.1",
     "ng2-dropdown": "0.0.21",
+    "ng2-material-dropdown": "^0.7.10",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
